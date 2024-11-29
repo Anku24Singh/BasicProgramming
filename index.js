@@ -13,3 +13,14 @@ function prime(num){
 }
 
 prime(7);
+
+//Even odd
+function evenOdd(num){
+    if(num%2==0){
+        console.log("True");
+    }
+    else{
+        console.log("False");
+    }
+}
+evenOdd(7);
